@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter + Dart Server Demo'),
+        title: const Text('Flutter + Dart Server Demo test'),
       ),
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
